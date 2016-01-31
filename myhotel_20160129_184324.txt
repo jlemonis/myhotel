@@ -1,0 +1,11 @@
+ERROR - 18:43:25: java.net.MalformedURLException: unknown protocol: pathmap
+ERROR - 18:43:33: java.net.MalformedURLException: unknown protocol: pathmap
+ERROR - 18:43:48: org.eclipse.emf.ecore.xmi.PackageNotFoundException: Package with uri 'null' not found. (file:///myhotel/.classpath, 2, 12)
+ERROR - 18:43:48: org.eclipse.emf.ecore.xmi.PackageNotFoundException: Package with uri 'null' not found. (file:///myhotel/.classpath, 2, 12)
+ERROR - 18:44:03: org.eclipse.emf.ecore.xmi.PackageNotFoundException: Package with uri 'null' not found. (file:///myhotel/.classpath, 2, 12)
+ERROR - 18:44:03: org.eclipse.emf.ecore.xmi.PackageNotFoundException: Package with uri 'null' not found. (file:///myhotel/.classpath, 2, 12)
+WARNING - 18:44:35: Convert myhotel
+ERROR - 18:44:35: com.sun.org.apache.xerces.internal.impl.io.MalformedByteSequenceException: Invalid byte 2 of 2-byte UTF-8 sequence.
+ERROR - 18:44:35: com.sun.org.apache.xerces.internal.impl.io.MalformedByteSequenceException: Invalid byte 2 of 2-byte UTF-8 sequence.
+ERROR - 18:48:44: org.xml.sax.SAXParseExceptionpublicId: /myhotel/src/myhotel/Database.java; systemId: file:///myhotel/src/myhotel/Database.java; lineNumber: 1; columnNumber: 1; Content is not allowed in prolog.
+ERROR - 18:48:44: org.xml.sax.SAXParseExceptionpublicId: /myhotel/src/myhotel/Database.java; systemId: file:///myhotel/src/myhotel/Database.java; lineNumber: 1; columnNumber: 1; Content is not allowed in prolog.

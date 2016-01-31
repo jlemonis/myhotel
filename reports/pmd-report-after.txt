@@ -1,0 +1,218 @@
+src/myhotel/Admin.java:10:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/myhotel/Admin.java:10:	headerCommentRequirement Required
+src/myhotel/Admin.java:11:	publicMethodCommentRequirement Required
+src/myhotel/Admin.java:12:	Local variable 'model' could be declared final
+src/myhotel/Admin.java:13:	Local variable 'table' could be declared final
+src/myhotel/Admin.java:14:	Found 'DD'-anomaly for variable 'reservation' (lines '14'-'23').
+src/myhotel/Admin.java:16:	Potential violation of Law of Demeter (object not created locally)
+src/myhotel/Admin.java:17:	Potential violation of Law of Demeter (object not created locally)
+src/myhotel/Admin.java:18:	Potential violation of Law of Demeter (object not created locally)
+src/myhotel/Admin.java:19:	Potential violation of Law of Demeter (object not created locally)
+src/myhotel/Admin.java:20:	Potential violation of Law of Demeter (object not created locally)
+src/myhotel/Admin.java:21:	Potential violation of Law of Demeter (object not created locally)
+src/myhotel/Admin.java:24:	Local variable 'len' could be declared final
+src/myhotel/Admin.java:24:	Potential violation of Law of Demeter (object not created locally)
+src/myhotel/Admin.java:25:	Avoid variables with short names like i
+src/myhotel/Admin.java:28:	Avoid instantiating new objects inside loops
+src/myhotel/Admin.java:28:	Potential violation of Law of Demeter (method chain calls)
+src/myhotel/Admin.java:28:	Potential violation of Law of Demeter (method chain calls)
+src/myhotel/Admin.java:28:	Potential violation of Law of Demeter (method chain calls)
+src/myhotel/Admin.java:28:	Potential violation of Law of Demeter (method chain calls)
+src/myhotel/Admin.java:28:	Potential violation of Law of Demeter (method chain calls)
+src/myhotel/Admin.java:28:	Potential violation of Law of Demeter (method chain calls)
+src/myhotel/Admin.java:28:	Potential violation of Law of Demeter (object not created locally)
+src/myhotel/Admin.java:28:	Potential violation of Law of Demeter (object not created locally)
+src/myhotel/Admin.java:28:	Potential violation of Law of Demeter (object not created locally)
+src/myhotel/Admin.java:28:	Potential violation of Law of Demeter (object not created locally)
+src/myhotel/Admin.java:28:	Potential violation of Law of Demeter (object not created locally)
+src/myhotel/Admin.java:28:	Potential violation of Law of Demeter (object not created locally)
+src/myhotel/Admin.java:31:	Avoid variables with short names like f
+src/myhotel/Admin.java:31:	Local variable 'f' could be declared final
+src/myhotel/Customer.java:4:	Avoid unused imports such as 'java.util.Arrays'
+src/myhotel/Customer.java:8:	Avoid unused imports such as 'com.mysql.fabric.xmlrpc.base.Array'
+src/myhotel/Customer.java:10:	Avoid unused imports such as 'java.awt.BorderLayout'
+src/myhotel/Customer.java:12:	Avoid unused imports such as 'javax.swing.JList'
+src/myhotel/Customer.java:15:	Avoid unused imports such as 'javax.swing.JRadioButton'
+src/myhotel/Customer.java:17:	Avoid unused imports such as 'javax.swing.JTable'
+src/myhotel/Customer.java:18:	Avoid unused imports such as 'java.text.SimpleDateFormat'
+src/myhotel/Customer.java:19:	Avoid unused imports such as 'java.util.Calendar'
+src/myhotel/Customer.java:20:	Avoid unused imports such as 'javax.swing.JPanel'
+src/myhotel/Customer.java:24:	Avoid unused imports such as 'javax.swing.JTextArea'
+src/myhotel/Customer.java:29:	headerCommentRequirement Required
+src/myhotel/Customer.java:31:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/myhotel/Customer.java:31:	fieldCommentRequirement Required
+src/myhotel/Customer.java:32:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/myhotel/Customer.java:32:	fieldCommentRequirement Required
+src/myhotel/Customer.java:33:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/myhotel/Customer.java:33:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'textField_1' is not final.
+src/myhotel/Customer.java:33:	fieldCommentRequirement Required
+src/myhotel/Customer.java:34:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/myhotel/Customer.java:34:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'textField_2' is not final.
+src/myhotel/Customer.java:34:	fieldCommentRequirement Required
+src/myhotel/Customer.java:35:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/myhotel/Customer.java:35:	fieldCommentRequirement Required
+src/myhotel/Customer.java:40:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/myhotel/Customer.java:40:	Parameter 'args' is not assigned and could be declared final
+src/myhotel/Customer.java:41:	To be compliant to J2EE, a webapp should not use any thread.
+src/myhotel/Customer.java:42:	publicMethodCommentRequirement Required
+src/myhotel/Customer.java:44:	Local variable 'window' could be declared final
+src/myhotel/Customer.java:45:	Potential violation of Law of Demeter (static property access)
+src/myhotel/Customer.java:46:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/myhotel/Customer.java:47:	Avoid printStackTrace(); use a logger call instead.
+src/myhotel/Customer.java:63:	Avoid really long methods.
+src/myhotel/Customer.java:67:	Potential violation of Law of Demeter (method chain calls)
+src/myhotel/Customer.java:71:	Potential violation of Law of Demeter (method chain calls)
+src/myhotel/Customer.java:74:	Local variable 'lblName' could be declared final
+src/myhotel/Customer.java:76:	Potential violation of Law of Demeter (method chain calls)
+src/myhotel/Customer.java:78:	Local variable 'lblNewLabel' could be declared final
+src/myhotel/Customer.java:80:	Potential violation of Law of Demeter (method chain calls)
+src/myhotel/Customer.java:84:	Potential violation of Law of Demeter (method chain calls)
+src/myhotel/Customer.java:86:	Local variable 'lblNewLabel_2' could be declared final
+src/myhotel/Customer.java:86:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'lblNewLabel_2' is not final.
+src/myhotel/Customer.java:88:	Potential violation of Law of Demeter (method chain calls)
+src/myhotel/Customer.java:90:	Local variable 'lblNewLabel3' could be declared final
+src/myhotel/Customer.java:92:	Potential violation of Law of Demeter (method chain calls)
+src/myhotel/Customer.java:94:	Local variable 'comboBox' could be declared final
+src/myhotel/Customer.java:98:	Potential violation of Law of Demeter (method chain calls)
+src/myhotel/Customer.java:100:	Local variable 'chckbxNewCheckBox' could be declared final
+src/myhotel/Customer.java:102:	Potential violation of Law of Demeter (method chain calls)
+src/myhotel/Customer.java:104:	Avoid excessively long variable names like chckbxNewCheckBox_1
+src/myhotel/Customer.java:104:	Local variable 'chckbxNewCheckBox_1' could be declared final
+src/myhotel/Customer.java:104:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'chckbxNewCheckBox_1' is not final.
+src/myhotel/Customer.java:106:	Potential violation of Law of Demeter (method chain calls)
+src/myhotel/Customer.java:108:	Avoid excessively long variable names like chckbxNewCheckBox_2
+src/myhotel/Customer.java:108:	Local variable 'chckbxNewCheckBox_2' could be declared final
+src/myhotel/Customer.java:108:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'chckbxNewCheckBox_2' is not final.
+src/myhotel/Customer.java:110:	Potential violation of Law of Demeter (method chain calls)
+src/myhotel/Customer.java:112:	Local variable 'lblDate' could be declared final
+src/myhotel/Customer.java:114:	Potential violation of Law of Demeter (method chain calls)
+src/myhotel/Customer.java:118:	Potential violation of Law of Demeter (method chain calls)
+src/myhotel/Customer.java:123:	Parameter 'arg0' is not assigned and could be declared final
+src/myhotel/Customer.java:123:	publicMethodCommentRequirement Required
+src/myhotel/Customer.java:124:	Found 'DD'-anomaly for variable 'properties' (lines '124'-'127').
+src/myhotel/Customer.java:124:	Found 'DD'-anomaly for variable 'properties' (lines '124'-'127').
+src/myhotel/Customer.java:124:	Found 'DD'-anomaly for variable 'properties' (lines '124'-'127').
+src/myhotel/Customer.java:127:	Found 'DD'-anomaly for variable 'properties' (lines '127'-'128').
+src/myhotel/Customer.java:127:	Found 'DD'-anomaly for variable 'properties' (lines '127'-'128').
+src/myhotel/Customer.java:127:	Found 'DD'-anomaly for variable 'properties' (lines '127'-'128').
+src/myhotel/Customer.java:128:	Found 'DD'-anomaly for variable 'properties' (lines '128'-'130').
+src/myhotel/Customer.java:128:	Found 'DD'-anomaly for variable 'properties' (lines '128'-'130').
+src/myhotel/Customer.java:128:	Found 'DD'-anomaly for variable 'properties' (lines '128'-'130').
+src/myhotel/Customer.java:128:	Found 'DD'-anomaly for variable 'properties' (lines '128'-'133').
+src/myhotel/Customer.java:128:	Found 'DD'-anomaly for variable 'properties' (lines '128'-'133').
+src/myhotel/Customer.java:128:	Found 'DD'-anomaly for variable 'properties' (lines '128'-'133').
+src/myhotel/Customer.java:130:	Found 'DD'-anomaly for variable 'properties' (lines '130'-'137').
+src/myhotel/Customer.java:130:	Found 'DD'-anomaly for variable 'properties' (lines '130'-'137').
+src/myhotel/Customer.java:130:	Found 'DD'-anomaly for variable 'properties' (lines '130'-'137').
+src/myhotel/Customer.java:130:	Found 'DD'-anomaly for variable 'properties' (lines '130'-'140').
+src/myhotel/Customer.java:130:	Found 'DD'-anomaly for variable 'properties' (lines '130'-'140').
+src/myhotel/Customer.java:130:	Found 'DD'-anomaly for variable 'properties' (lines '130'-'140').
+src/myhotel/Customer.java:133:	Found 'DD'-anomaly for variable 'properties' (lines '133'-'137').
+src/myhotel/Customer.java:133:	Found 'DD'-anomaly for variable 'properties' (lines '133'-'137').
+src/myhotel/Customer.java:133:	Found 'DD'-anomaly for variable 'properties' (lines '133'-'137').
+src/myhotel/Customer.java:133:	Found 'DD'-anomaly for variable 'properties' (lines '133'-'140').
+src/myhotel/Customer.java:133:	Found 'DD'-anomaly for variable 'properties' (lines '133'-'140').
+src/myhotel/Customer.java:133:	Found 'DD'-anomaly for variable 'properties' (lines '133'-'140').
+src/myhotel/Customer.java:137:	Found 'DD'-anomaly for variable 'properties' (lines '137'-'144').
+src/myhotel/Customer.java:137:	Found 'DD'-anomaly for variable 'properties' (lines '137'-'144').
+src/myhotel/Customer.java:137:	Found 'DD'-anomaly for variable 'properties' (lines '137'-'144').
+src/myhotel/Customer.java:137:	Found 'DD'-anomaly for variable 'properties' (lines '137'-'147').
+src/myhotel/Customer.java:137:	Found 'DD'-anomaly for variable 'properties' (lines '137'-'147').
+src/myhotel/Customer.java:137:	Found 'DD'-anomaly for variable 'properties' (lines '137'-'147').
+src/myhotel/Customer.java:140:	Found 'DD'-anomaly for variable 'properties' (lines '140'-'144').
+src/myhotel/Customer.java:140:	Found 'DD'-anomaly for variable 'properties' (lines '140'-'144').
+src/myhotel/Customer.java:140:	Found 'DD'-anomaly for variable 'properties' (lines '140'-'144').
+src/myhotel/Customer.java:140:	Found 'DD'-anomaly for variable 'properties' (lines '140'-'147').
+src/myhotel/Customer.java:140:	Found 'DD'-anomaly for variable 'properties' (lines '140'-'147').
+src/myhotel/Customer.java:140:	Found 'DD'-anomaly for variable 'properties' (lines '140'-'147').
+src/myhotel/Customer.java:144:	Found 'DD'-anomaly for variable 'properties' (lines '144'-'150').
+src/myhotel/Customer.java:144:	Found 'DD'-anomaly for variable 'properties' (lines '144'-'150').
+src/myhotel/Customer.java:144:	Found 'DD'-anomaly for variable 'properties' (lines '144'-'150').
+src/myhotel/Customer.java:147:	Found 'DD'-anomaly for variable 'properties' (lines '147'-'150').
+src/myhotel/Customer.java:147:	Found 'DD'-anomaly for variable 'properties' (lines '147'-'150').
+src/myhotel/Customer.java:147:	Found 'DD'-anomaly for variable 'properties' (lines '147'-'150').
+src/myhotel/Customer.java:156:	Potential violation of Law of Demeter (method chain calls)
+src/myhotel/Customer.java:158:	Local variable 'btnLogIn' could be declared final
+src/myhotel/Customer.java:160:	Parameter 'arg0' is not assigned and could be declared final
+src/myhotel/Customer.java:160:	publicMethodCommentRequirement Required
+src/myhotel/Customer.java:161:	Potential violation of Law of Demeter (method chain calls)
+src/myhotel/Customer.java:161:	Potential violation of Law of Demeter (method chain calls)
+src/myhotel/Customer.java:161:	Useless parentheses.
+src/myhotel/Customer.java:161:	Useless parentheses.
+src/myhotel/Customer.java:161:	Useless parentheses.
+src/myhotel/Customer.java:161:	Useless parentheses.
+src/myhotel/Customer.java:168:	Potential violation of Law of Demeter (method chain calls)
+src/myhotel/Customer.java:172:	Potential violation of Law of Demeter (method chain calls)
+src/myhotel/Customer.java:177:	Potential violation of Law of Demeter (method chain calls)
+src/myhotel/Customer.java:179:	Local variable 'lblUsername' could be declared final
+src/myhotel/Customer.java:181:	Potential violation of Law of Demeter (method chain calls)
+src/myhotel/Customer.java:183:	Local variable 'lblPassword' could be declared final
+src/myhotel/Customer.java:185:	Potential violation of Law of Demeter (method chain calls)
+src/myhotel/Database.java:6:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/myhotel/Database.java:6:	headerCommentRequirement Required
+src/myhotel/Database.java:8:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/myhotel/Database.java:8:	Parameter 'properties' is not assigned and could be declared final
+src/myhotel/Database.java:8:	publicMethodCommentRequirement Required
+src/myhotel/Database.java:9:	Avoid unused local variables such as 'conn'.
+src/myhotel/Database.java:9:	Ensure that resources like this Connection object are closed after use
+src/myhotel/Database.java:9:	Found 'DD'-anomaly for variable 'conn' (lines '9'-'19').
+src/myhotel/Database.java:10:	Local variable 'stmt' could be declared final
+src/myhotel/Database.java:11:	Avoid unused local variables such as 'rs'.
+src/myhotel/Database.java:11:	Avoid variables with short names like rs
+src/myhotel/Database.java:11:	Ensure that resources like this ResultSet object are closed after use
+src/myhotel/Database.java:11:	Found 'DU'-anomaly for variable 'rs' (lines '11'-'33').
+src/myhotel/Database.java:11:	Local variable 'rs' could be declared final
+src/myhotel/Database.java:15:	Potential violation of Law of Demeter (method chain calls)
+src/myhotel/Database.java:16:	Local variable 'connectionUrl' could be declared final
+src/myhotel/Database.java:17:	Local variable 'connectionUser' could be declared final
+src/myhotel/Database.java:17:	The String literal "root" appears 4 times in this file; the first occurrence is on line 17
+src/myhotel/Database.java:18:	Avoid excessively long variable names like connectionPassword
+src/myhotel/Database.java:18:	Local variable 'connectionPassword' could be declared final
+src/myhotel/Database.java:19:	Found 'DU'-anomaly for variable 'conn' (lines '19'-'33').
+src/myhotel/Database.java:20:	Comment is too large: Line too long
+src/myhotel/Database.java:21:	Potential violation of Law of Demeter (method chain calls)
+src/myhotel/Database.java:21:	Potential violation of Law of Demeter (object not created locally)
+src/myhotel/Database.java:22:	Potential violation of Law of Demeter (method chain calls)
+src/myhotel/Database.java:22:	Potential violation of Law of Demeter (object not created locally)
+src/myhotel/Database.java:23:	Potential violation of Law of Demeter (method chain calls)
+src/myhotel/Database.java:23:	Potential violation of Law of Demeter (object not created locally)
+src/myhotel/Database.java:24:	Potential violation of Law of Demeter (method chain calls)
+src/myhotel/Database.java:24:	Potential violation of Law of Demeter (object not created locally)
+src/myhotel/Database.java:25:	Potential violation of Law of Demeter (method chain calls)
+src/myhotel/Database.java:25:	Potential violation of Law of Demeter (object not created locally)
+src/myhotel/Database.java:26:	Potential violation of Law of Demeter (method chain calls)
+src/myhotel/Database.java:26:	Potential violation of Law of Demeter (object not created locally)
+src/myhotel/Database.java:27:	Potential violation of Law of Demeter (object not created locally)
+src/myhotel/Database.java:30:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/myhotel/Database.java:31:	Avoid printStackTrace(); use a logger call instead.
+src/myhotel/Database.java:31:	Potential violation of Law of Demeter (object not created locally)
+src/myhotel/Database.java:35:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/myhotel/Database.java:35:	publicMethodCommentRequirement Required
+src/myhotel/Database.java:36:	Local variable 'reservation' could be declared final
+src/myhotel/Database.java:37:	Ensure that resources like this Connection object are closed after use
+src/myhotel/Database.java:37:	Found 'DD'-anomaly for variable 'conn' (lines '37'-'47').
+src/myhotel/Database.java:38:	Ensure that resources like this Statement object are closed after use
+src/myhotel/Database.java:38:	Found 'DD'-anomaly for variable 'stmt' (lines '38'-'48').
+src/myhotel/Database.java:39:	Avoid variables with short names like rs
+src/myhotel/Database.java:39:	Ensure that resources like this ResultSet object are closed after use
+src/myhotel/Database.java:39:	Found 'DD'-anomaly for variable 'rs' (lines '39'-'49').
+src/myhotel/Database.java:43:	Potential violation of Law of Demeter (method chain calls)
+src/myhotel/Database.java:44:	Local variable 'connectionUrl' could be declared final
+src/myhotel/Database.java:45:	Local variable 'connectionUser' could be declared final
+src/myhotel/Database.java:46:	Avoid excessively long variable names like connectionPassword
+src/myhotel/Database.java:46:	Local variable 'connectionPassword' could be declared final
+src/myhotel/Database.java:48:	Potential violation of Law of Demeter (object not created locally)
+src/myhotel/Database.java:49:	Potential violation of Law of Demeter (object not created locally)
+src/myhotel/Database.java:50:	Potential violation of Law of Demeter (object not created locally)
+src/myhotel/Database.java:51:	Avoid instantiating new objects inside loops
+src/myhotel/Database.java:51:	Local variable 'singleList' could be declared final
+src/myhotel/Database.java:52:	Potential violation of Law of Demeter (object not created locally)
+src/myhotel/Database.java:53:	Potential violation of Law of Demeter (object not created locally)
+src/myhotel/Database.java:54:	Potential violation of Law of Demeter (object not created locally)
+src/myhotel/Database.java:55:	Potential violation of Law of Demeter (object not created locally)
+src/myhotel/Database.java:56:	Potential violation of Law of Demeter (object not created locally)
+src/myhotel/Database.java:57:	Potential violation of Law of Demeter (object not created locally)
+src/myhotel/Database.java:58:	Potential violation of Law of Demeter (object not created locally)
+src/myhotel/Database.java:61:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/myhotel/Database.java:62:	Avoid printStackTrace(); use a logger call instead.
+src/myhotel/Database.java:62:	Potential violation of Law of Demeter (object not created locally)

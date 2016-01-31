@@ -1,0 +1,16 @@
+Found a 12 line (44 tokens) duplication in the following files: 
+Starting at line 10 of C:\Users\jflem\Desktop\myhotel\src\myhotel\Database.java
+Starting at line 38 of C:\Users\jflem\Desktop\myhotel\src\myhotel\Database.java
+
+		PreparedStatement stmt = null;
+		ResultSet rs = null;
+		try
+		{
+		// Load the JDBC driver
+		Class.forName("com.mysql.jdbc.Driver").newInstance();
+		String connectionUrl = "jdbc:mysql://localhost:3306/hotel?useSSL=false";
+		String connectionUser = "root";
+		String connectionPassword = "root";
+		conn = DriverManager.getConnection(connectionUrl, connectionUser, connectionPassword);
+		//stmt = conn.prepareStatement("INSERT INTO room2 (name, type, view, service, checkin, date) VALUES (?, ?, ?, ?, ?, ?)");
+		stmt.setString(1, properties[0]);
